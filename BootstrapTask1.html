@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BootstrapTask1</title>
+  <link rel="stylesheet" href="BootstrapTask1.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script
+      src="https://kit.fontawesome.com/b1d7456c37.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg text-uppercase fixed-top navbar-shrink" id="#mainNav" style="padding:20px 20px;">
+    <div class="container">
+      <a class="navbar-brand" href="#page-top" style="color: white;font-size: 30px;">Start Bootstrap</a>
+      <button class="navbar-toggler text-uppercase text-white collapsed "  data-bs-toggle="collapse" data-bs-target="#navbars" style="background-color:#1ABC9C;"> Menu
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse " id="navbars">
+      <ul class="navbar-nav ms-auto" >
+        <li class="nav-item mx-0 mx-lg-1">
+          <a class="port nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio" style="color: white;">Portfolio</a>
+        </li>
+        <li class="nav-item mx-0 mx-lg-1">
+          <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about" style="color: white;">About</a>
+        </li>
+        <li class="nav-item mx-0 mx-lg-1">
+          <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact" style="color: white;">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <header class="masthead text-center text-white d-flex flex-column" id="page-top">
+    <div class="container d-flex align-items-center flex-column">
+      <div class="mx-4">
+        <img class="img-fluid mb-5" src="/assets/avataaars.jpg" alt=""></div>
+      <h1 class="mastername text-uppercase">Start Bootstrap</h1>
+    </div>
+    <div class="divider-custom d-flex justify-content-center">
+      <div class="divider-custom-line"></div>
+      <div class="divider-custom-icon">
+        <i class="fas fa-star div-icon"></i></div>
+      <div class="divider-custom-line"></div>
+    </div>
+    <p class="mastpara font-weight-light fs-3">Graphic Artist - Web Designer - Illustrator</p>
+  </header>
+  <section class="page-section d-sm-flex" id="portfolio">
+    <div class="container">
+      <h1 class="page-section-heading text-center text-uppercase">Portfolio</h1>
+      <div class="page-custom d-flex justify-content-center">
+        <div class="page-custom-line"></div>
+        <div class="page-custom-icon">
+          <i class="fas fa-star page-icon"></i></div>
+        <div class="page-custom-line"></div>
+      </div>
+      <div class="row justify-content-center mt-5 ">
+        <div class="col-md-6 col-lg-4 mb-5">
+          <div class="cabin mx-4" data-bs-target="#portfoliomodal1" data-bs-toggle="modal" style="cursor: pointer;">
+            <img class="cabin-img img-fluid rounded" src="/assets/cabin.png" alt="">
+            <div class="cabin-item d-flex justify-content-center align-items-center">
+              <div class="cabin-item-caption d-flex justify-content-center align-items-center text-center text-white">
+                <i class="fa-solid fa-xmark"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-5" data-bs-target="#portfoliomodal2" data-bs-toggle="modal" style="cursor: pointer;">
+          <div class="cabin mx-4">
+            <img class=" img-fluid rounded" src="/assets/cake.png" alt="">
+            <div class="cabin-item d-flex justify-content-center align-items-center h-100 w-100">
+              <div class="cabin-item-caption text-center text-white">
+                <i class="fa-solid fa-xmark"></i>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-5" data-bs-target="#portfoliomodal3" data-bs-toggle="modal" style="cursor: pointer;">
+          <div class="cabin mx-4">
+            <img class=" img-fluid rounded" src="/assets/circus.png" alt="">
+            <div class="cabin-item d-flex justify-content-center align-items-center h-100 w-100">
+              <div class="cabin-item-caption text-center text-white">
+                <i class="fa-solid fa-xmark"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-5" data-bs-target="#portfoliomodal4" data-bs-toggle="modal" style="cursor: pointer;">
+          <div class="cabin mx-4">
+            <img class=" img-fluid rounded" src="/assets/game.png" alt="">
+            <div class="cabin-item d-flex justify-content-center align-items-center h-100 w-100">
+              <div class="cabin-item-caption text-center text-white">
+                <i class="fa-solid fa-xmark"></i>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-5" data-bs-target="#portfoliomodal5" data-bs-toggle="modal" style="cursor: pointer;">
+          <div class="cabin mx-4">
+            <img class=" img-fluid rounded" src="/assets/safe.png" alt="">
+            <div class="cabin-item d-flex justify-content-center align-items-center h-100 w-100">
+              <div class="cabin-item-caption text-center text-white">
+                <i class="fa-solid fa-xmark"></i>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-5" data-bs-target="#portfoliomodal6" data-bs-toggle="modal" style="cursor: pointer;">
+          <div class="cabin mx-4">
+            <img class=" img-fluid rounded" src="/assets/submarine.png" alt="">
+            <div class="cabin-item d-flex justify-content-center align-items-center h-100 w-100">
+              <div class="cabin-item-caption text-center text-white">
+                <i class="fa-solid fa-xmark"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="mastabout text-white" id="about">
+    <div class="container">
+      <h2 class="text-center text-uppercase">About</h2>
+      <div class="divider-custom d-flex justify-content-center">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star div-icon"></i></div>
+        <div class="divider-custom-line"></div>
+      </div>
+      <div class="row justify-content-between mt-4">
+        <div class="col-lg-4 ms-auto ">
+          <p class="lead fw-semibold">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+        </div>
+        <div class="col-lg-4 me-auto">
+          <p class="lead fw-semibold">
+            You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
+          </p>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+       <a class="btn btn-xl btn-outline-light px-4 py-3 fw-semibold" href="#">
+        <i class="fa-solid fa-download"></i>
+          Free Download
+       </a>
+      </div>
+    </div>
+  </section>
+  <section class="page-section" id="contact">
+    <div class="container">
+      <h2 class="page-section-heading text-center text-uppercase">Contact Me</h2>
+      <div class="page-custom d-flex justify-content-center">
+        <div class="page-custom-line"></div>
+        <div class="page-custom-icon">
+          <i class="fas fa-star page-icon"></i></div>
+        <div class="page-custom-line"></div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-xl-7">
+          <form action="" class="was-validated">
+            <div class="form-floating mb-3">
+              <input class="form-control-plaintext border-bottom" type="text" placeholder="enter your name" required>
+              <label for="name">Full name</label>
+              <div class="invalid-feedback" data-sb-feedback="name:required"> A name is required</div>
+            </div>
+            <div class="form-floating mb-3">
+              <input class="form-control-plaintext border-bottom" type="email" placeholder="enter your email" required> 
+              <label for="email">Email address</label>
+              <div class="invalid-feedback" data-sb-feedback="email:required"> A email is required</div>
+            </div>
+            <div class="form-floating mb-3">
+              <input class="form-control-plaintext border-bottom" type="tel" placeholder="enter your mobile number" required>
+              <label for="number">Phone number</label>
+              <div class="invalid-feedback" data-sb-feedback="number:required"> A number is required</div>
+            </div>
+            <div class="form-floating mb-3">
+              <textarea class="form-control-plaintext border-bottom" id="" required></textarea>
+              <label for="message">Message</label>
+              <div class="invalid-feedback" data-sb-feedback="message:required"> A message is required</div>
+            </div>
+            <button class="btn btn-xl px-3 py-2  disabled" id="submitButton" type="submit" style="background-color: #1ABC9C;color: white;">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="footer text-center p-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-5 mb-lg-0 fw-bold">
+          <h4 class="text-uppercase mb-4 fs-3">Location</h4>
+          <p class="fs-5">2215 John Daniel Drive <br>
+            Clark, MO 65243</p>
+        </div>
+        <div class="col-lg-4 mb-5 mb-lg-0 fw-bold">
+          <h4 class="text-uppercase mb-4 fs-3">Around the web</h4>
+          <a class="btn btn-outline-light btn-social rounded-circle mx-1" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a class="btn btn-outline-light btn-social rounded-circle mx-1" href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a class="btn btn-outline-light btn-social rounded-circle mx-1" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a class="btn btn-outline-light btn-social rounded-circle mx-1" href="#"><i class="fa-brands fa-dribbble"></i></a>
+        </div>
+        <div class="col-lg-4 mb-5 mb-lg-0 fw-bold">
+            <h4 class="text-uppercase mb-4 fs-3">ABOUT FREELANCER</h4>
+            <p class="fs-5">Freelance is a free to use, MIT licensed <br> 
+              Bootstrap theme created by <a class="start" href="#">Start Bootstrap</a>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="copyright py-4 text-center text-white">
+    <div class="container">
+      <small>Copyright © Your Website 2023</small>
+    </div>
+  </footer>
+  <div class="modal" id="portfoliomodal1">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <button class="btn-close float-end mb-5" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body justify-content-center p-5">
+          <div class="container">
+            <div class="row justify-content-center text-center">
+              <div class="col-lg-8">
+                <h2 class="portfoliomodal-heading text-center fw-bold text-uppercase">Log Cabin</h2>
+                <div class="divider-custom d-flex justify-content-center mb-5">
+                  <div class="divider-custom-liner"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star div-icon"></i></div>
+                  <div class="divider-custom-liner"></div>
+                </div>
+                <img class="img-fluid rounded mb-5" src="/assets/cabin.png" alt="">
+                <p class="mb-5 fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil,
+                   molestias magnam, recusandae quos quis inventore quisquam velit asperiores, 
+                   vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <button class="btn btn-primary" data-bs-dismiss="modal" style="background-color: #1ABC9C;"> 
+                  <i class="fa-solid fa-xmark"></i> Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </div>
+  <div class="modal" id="portfoliomodal2">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <button class="btn-close mb-5" type="button" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body justify-content-center p-5">
+          <div class="container">
+            <div class="row justify-content-center text-center">
+              <div class="col-lg-8">
+                <h2 class="portfoliomodal-heading text-center fw-bold text-uppercase">Tasty Cake</h2>
+                <div class="divider-custom d-flex justify-content-center mb-5">
+                  <div class="divider-custom-liner"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star div-icon"></i></div>
+                  <div class="divider-custom-liner"></div>
+                </div>
+                <img class="img-fluid rounded mb-5" src="/assets/cake.png" alt="">
+                <p class="mb-5 fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil,
+                   molestias magnam, recusandae quos quis inventore quisquam velit asperiores, 
+                   vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <button class="btn btn-primary" type="button" data-bs-dismiss="modal" style="background-color: #1ABC9C;"> 
+                  <i class="fa-solid fa-xmark"></i> Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </div>
+  <div class="modal" id="portfoliomodal3">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <button class="btn-close mb-5" type="button" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body justify-content-center p-5">
+          <div class="container">
+            <div class="row justify-content-center text-center">
+              <div class="col-lg-8">
+                <h2 class="portfoliomodal-heading text-center fw-bold text-uppercase">Circus Tent</h2>
+                <div class="divider-custom d-flex justify-content-center mb-5">
+                  <div class="divider-custom-liner"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star div-icon"></i></div>
+                  <div class="divider-custom-liner"></div>
+                </div>
+                <img class="img-fluid rounded mb-5" src="/assets/circus.png" alt="">
+                <p class="mb-5 fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil,
+                   molestias magnam, recusandae quos quis inventore quisquam velit asperiores, 
+                   vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <button class="btn btn-primary" type="button" data-bs-dismiss="modal" style="background-color: #1ABC9C;"> 
+                  <i class="fa-solid fa-xmark"></i> Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </div>
+  <div class="modal" id="portfoliomodal4">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <button class="btn-close mb-5" type="button" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body justify-content-center p-5">
+          <div class="container">
+            <div class="row justify-content-center text-center">
+              <div class="col-lg-8">
+                <h2 class="portfoliomodal-heading text-center fw-bold text-uppercase">Controller</h2>
+                <div class="divider-custom d-flex justify-content-center mb-5">
+                  <div class="divider-custom-liner"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star div-icon"></i></div>
+                  <div class="divider-custom-liner"></div>
+                </div>
+                <img class="img-fluid rounded mb-5" src="/assets/game.png" alt="">
+                <p class="mb-5 fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil,
+                   molestias magnam, recusandae quos quis inventore quisquam velit asperiores, 
+                   vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <button class="btn btn-primary" type="button" data-bs-dismiss="modal" style="background-color: #1ABC9C;"> 
+                  <i class="fa-solid fa-xmark"></i> Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </div>
+  <div class="modal" id="portfoliomodal5">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <button class="btn-close mb-5" type="button" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body justify-content-center p-5">
+          <div class="container">
+            <div class="row justify-content-center text-center">
+              <div class="col-lg-8">
+                <h2 class="portfoliomodal-heading text-center fw-bold text-uppercase">Locked Safe</h2>
+                <div class="divider-custom d-flex justify-content-center mb-5">
+                  <div class="divider-custom-liner"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star div-icon"></i></div>
+                  <div class="divider-custom-liner"></div>
+                </div>
+                <img class="img-fluid rounded mb-5" src="/assets/safe.png" alt="">
+                <p class="mb-5 fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil,
+                   molestias magnam, recusandae quos quis inventore quisquam velit asperiores, 
+                   vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <button class="btn btn-primary" type="button" data-bs-dismiss="modal" style="background-color: #1ABC9C;"> 
+                  <i class="fa-solid fa-xmark"></i> Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </div>
+  <div class="modal" id="portfoliomodal6">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <button class="btn-close mb-5" type="button" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body justify-content-center p-5">
+          <div class="container">
+            <div class="row justify-content-center text-center">
+              <div class="col-lg-8">
+                <h2 class="portfoliomodal-heading text-center fw-bold text-uppercase">Submarine</h2>
+                <div class="divider-custom d-flex justify-content-center mb-5">
+                  <div class="divider-custom-liner"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star div-icon"></i></div>
+                  <div class="divider-custom-liner"></div>
+                </div>
+                <img class="img-fluid rounded mb-5" src="/assets/submarine.png" alt="">
+                <p class="mb-5 fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil,
+                   molestias magnam, recusandae quos quis inventore quisquam velit asperiores, 
+                   vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <button class="btn btn-primary" type="button" data-bs-dismiss="modal" style="background-color: #1ABC9C;"> 
+                  <i class="fa-solid fa-xmark"></i> Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </div>
+</body>
+</html>
